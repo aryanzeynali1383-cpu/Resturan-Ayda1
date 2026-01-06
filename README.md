@@ -1,20 +1,24 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# سامانه هوشمند مدیریت رستوران (سرای پیتزا)
 
-# Run and deploy your AI Studio app
+یک اپلیکیشن جامع برای مدیریت رستوران‌های فست‌فود که با استفاده از **React**، **Tailwind CSS** و **Gemini AI** طراحی شده است.
 
-This contains everything you need to run your app locally.
+## ویژگی‌های اصلی
+- **میز کار هوشمند (Dashboard):** مشاهده آمار فروش، سفارشات جاری و تحلیل‌های هوشمند با استفاده از هوش مصنوعی Gemini.
+- **سیستم ثبت سفارش (POS):** رابط کاربری مدرن برای ثبت سفارشات بر اساس میز.
+- **مانیتورینگ آشپزخانه (KDS):** مدیریت وضعیت پخت و آماده‌سازی غذاها به صورت زنده.
+- **مدیریت انبار:** کنترل موجودی مواد اولیه و هشدار خودکار برای موارد رو به اتمام.
+- **مدیریت منو:** افزودن، ویرایش و حذف آیتم‌های منو با دسته‌بندی و تصاویر.
+- **مدیریت تیم:** مدیریت کارکنان، نقش‌ها و کنترل دستمزدها.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1xtz3KjLNkEify-UR-qwXBpAjexBRUXZ8
+## تکنولوژی‌های مورد استفاده
+- **Frontend:** React 19, Tailwind CSS
+- **Routing:** React Router 7
+- **AI:** Google Gemini API (@google/genai)
+- **Charts:** Recharts
+- **Icons:** Emojis & SVG
 
-## Run Locally
+## نحوه اجرا
+این پروژه به صورت یک Single Page Application (SPA) طراحی شده و از `importmap` برای مدیریت پکیج‌ها استفاده می‌کند. برای اجرا کافیست فایل `index.html` را در یک سرور محلی باز کنید.
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+طراحی شده توسط دستیار هوشمند برای مدیریت بهینه رستوران.
